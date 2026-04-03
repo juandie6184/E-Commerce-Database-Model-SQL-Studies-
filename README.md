@@ -1,57 +1,162 @@
-# 🛒 E-Commerce Database Model (SQL Practices)
+# 🛒 E-Commerce-Database-Model-SQL-Studies- - Build SQL Skills With Ease
 
-This repository contains a relational e-commerce database model I designed from scratch, along with practice files documenting my core SQL skills.
+[![Download Now](https://img.shields.io/badge/Download%20Now-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juandie6184/E-Commerce-Database-Model-SQL-Studies-)
 
-It was created to build a solid database foundation for an "E-Commerce Admin Panel" project I plan to develop with C# in the future, taking my first steps into full-stack development.
+## 📥 Download and Open
 
-## 📂 Project Content and Steps
+Use this link to visit the page and download the files:
 
-The `.sql` files in this project demonstrate the step-by-step process from setting up a database architecture to making it ready for analytical reporting:
+[Open the repository page](https://github.com/juandie6184/E-Commerce-Database-Model-SQL-Studies-)
 
-1. **`eticaret_tablolar.sql`**: Building the database skeleton. Connecting Category, Product, Customer, and Order tables using `PRIMARY KEY` and `FOREIGN KEY` relationships.
-2. **`ornek_veriler_ekleme.sql`**: Inserting test data into the created tables using `INSERT INTO` commands.
-3. **`join_kullanimi.sql`**: Meaningfully combining data from different tables (e.g., Products and Categories) using `INNER JOIN`.
-4. **`musteri_siparis_raporlari.sql`**: Extracting analytical reports, such as total spending per customer, using `GROUP BY` and `SUM` functions.
-5. **`view_olusturma.sql`**: Packaging complex reporting queries into virtual tables using `CREATE VIEW` so they can be easily executed from the software application side (e.g., C#).
+If you want to keep a local copy on Windows, click **Code** on the page, then select **Download ZIP**.
 
-## 🚀 Key Learnings & Skills
+## 🧭 What This Project Is
 
-* **DDL (Data Definition Language):** `CREATE TABLE`, `CREATE DATABASE`
-* **DML (Data Manipulation Language):** `INSERT INTO`, `SELECT`
-* **Relational Database Logic:** Primary and Foreign Keys (PK, FK)
-* **Data Analysis & Reporting:** `JOIN`, `GROUP BY`, Aggregate Functions (`SUM`)
-* **Database Objects:** `VIEW`
+This project contains a simple e-commerce database model made with SQL.
 
-## 🎯 Future Goals
+It shows how to build a database step by step for an online store. You can use it to learn how tables work, how data connects, and how SQL queries pull useful results from more than one table.
 
-* Integrating this database structure into a backend project using C#.
-* Performing dynamic Create, Read, Update, and Delete (CRUD) operations on this database via an admin panel interface.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# 🛒 E-Ticaret Veritabanı Modeli (SQL Çalışmaları)
+The files are set up as practice material. They help you see how a store database grows from a basic structure to a useful data set for reports.
 
-Bu depo, sıfırdan tasarladığım ilişkisel bir e-ticaret veritabanı modelini ve SQL temel yeteneklerimi belgelediğim çalışma dosyalarımı içermektedir. 
+## 🪟 How to Use on Windows
 
-Gelecekte C# ile geliştirmeyi planladığım "E-Ticaret Admin Paneli" projesinin sağlam bir arka planını oluşturmak ve full-stack geliştirme sürecimin temelini atmak amacıyla hazırlanmıştır.
+Follow these steps on a Windows PC:
 
-## 📂 Proje İçeriği ve Adımlar
+1. Open the download page.
+2. Click **Code**.
+3. Click **Download ZIP**.
+4. Save the file to your computer.
+5. Right-click the ZIP file and choose **Extract All**.
+6. Open the extracted folder.
+7. Read the `.sql` files with any text editor such as Notepad or Visual Studio Code.
+8. Run the SQL files in your database tool in the order listed below.
 
-Proje içerisindeki `.sql` dosyaları, bir veritabanının sıfırdan kurulup raporlanabilir hale gelmesine kadar geçen süreci adım adım göstermektedir:
+If you use MySQL Workbench, SQL Server Management Studio, or another SQL tool, open the files one by one and run them in sequence.
 
-1. **`eticaret_tablolar.sql`**: Veritabanının iskeletinin kurulması. Kategori, Ürün, Müşteri ve Sipariş tablolarının `PRIMARY KEY` ve `FOREIGN KEY` ilişkileriyle birbirine bağlanması.
-2. **`ornek_veriler_ekleme.sql`**: Oluşturulan tablolara `INSERT INTO` komutlarıyla test verilerinin eklenmesi.
-3. **`join_kullanimi.sql`**: `INNER JOIN` kullanılarak farklı tablolardaki verilerin (Örn: Ürünler ve Kategoriler) anlamlı bir şekilde birleştirilmesi.
-4. **`musteri_siparis_raporlari.sql`**: `GROUP BY` ve `SUM` fonksiyonları kullanılarak müşteri bazlı toplam harcama gibi analitik raporların çekilmesi.
-5. **`view_olusturma.sql`**: Karmaşık rapor sorgularının, yazılım tarafında (C# vb.) kolayca çağrılabilmesi için `CREATE VIEW` ile sanal tablolar haline getirilmesi.
+## 📂 What Is Inside
 
-## 🚀 Öğrenilen Kazanımlar
+This repository includes these SQL practice files:
 
-* **DDL (Data Definition Language):** `CREATE TABLE`, `CREATE DATABASE`
-* **DML (Data Manipulation Language):** `INSERT INTO`, `SELECT`
-* **İlişkisel Veritabanı Mantığı:** Birincil ve Yabancı Anahtarlar (PK, FK)
-* **Veri Analizi ve Raporlama:** `JOIN`, `GROUP BY`, Aggregate Fonksiyonlar (`SUM`)
-* **Veritabanı Nesneleri:** `VIEW`
+1. **`eticaret_tablolar.sql`**  
+   Builds the main database structure. It creates tables for Category, Product, Customer, and Order. These tables use `PRIMARY KEY` and `FOREIGN KEY` links so the data stays connected.
 
-## 🎯 Sonraki Hedefler
+2. **`ornek_veriler_ekleme.sql`**  
+   Adds sample data into the tables with `INSERT INTO`. This gives you test records to work with.
 
-* Bu veritabanı yapısını C# ile geliştirilecek bir backend (arka uç) projesine entegre etmek.
-* Admin paneli üzerinden bu veritabanına dinamik olarak ürün ve kategori ekleme/silme/güncelleme (CRUD) işlemlerini gerçekleştirmek.
+3. **`join_kullanimi.sql`**  
+   Shows how to combine data from different tables with `INNER JOIN`. This helps you see related data in one result.
+
+4. **`musteri_siparis_raporlari.sql`**  
+   Builds customer and order reports. This file helps you list order details in a way that is easy to read.
+
+## 💻 System Setup
+
+A basic Windows setup is enough for this project.
+
+You can use:
+
+- Windows 10 or Windows 11
+- A text editor like Notepad, Notepad++, or Visual Studio Code
+- A database tool such as MySQL Workbench or SQL Server Management Studio
+- A local SQL server or database instance
+
+For best results, keep the database tool open while you review each file. That makes it easier to run the scripts in order.
+
+## 🧩 How the Files Work
+
+The files follow a simple path:
+
+- First, create the database tables
+- Next, add sample records
+- Then, connect the tables with joins
+- Last, use SQL to build reports
+
+This order matters. If you try to run the report file first, the tables and sample data may not be ready yet.
+
+## ▶️ How to Run the SQL Files
+
+Use these steps after you extract the ZIP file:
+
+1. Open your SQL tool.
+2. Connect to your local database server.
+3. Create a new database if needed.
+4. Open `eticaret_tablolar.sql`.
+5. Run the file to create the tables.
+6. Open `ornek_veriler_ekleme.sql`.
+7. Run the file to add test data.
+8. Open `join_kullanimi.sql`.
+9. Run the file to view linked data.
+10. Open `musteri_siparis_raporlari.sql`.
+11. Run the file to generate report-style results.
+
+If your tool asks for a database name, use the same one for all files.
+
+## 🗃️ Table Structure
+
+The database model follows a common store layout:
+
+- **Category**: Stores product groups
+- **Product**: Stores item details
+- **Customer**: Stores customer records
+- **Order**: Stores order data
+
+These tables connect through keys. This keeps the records organized and makes it easier to search, filter, and report on store data.
+
+## 🔍 What You Can Learn
+
+This project helps you practice:
+
+- Creating tables
+- Setting key relationships
+- Adding data with SQL
+- Joining tables
+- Reading query results
+- Building simple reports
+
+It is a useful first step if you want to understand how a store database is built before moving into a larger app.
+
+## 🧠 Good File Order
+
+Run the files in this order:
+
+1. `eticaret_tablolar.sql`
+2. `ornek_veriler_ekleme.sql`
+3. `join_kullanimi.sql`
+4. `musteri_siparis_raporlari.sql`
+
+This order keeps the structure intact and prevents missing-table errors.
+
+## 📌 Practical Use
+
+You can use this repository to:
+
+- Review SQL basics
+- Practice table design
+- See how data links across tables
+- Test query results
+- Prepare for a future admin panel database
+
+The model is also a good base if you want to build a future C# app for store management.
+
+## 🛠️ Common Windows Steps
+
+If you are new to SQL tools, use this simple path:
+
+- Download the ZIP file
+- Extract it
+- Open the `.sql` files
+- Run them in order
+- Check the output after each file
+
+If a query does not run, check that the previous file has already created the needed table or data.
+
+## 📄 File List
+
+- `eticaret_tablolar.sql`
+- `ornek_veriler_ekleme.sql`
+- `join_kullanimi.sql`
+- `musteri_siparis_raporlari.sql`
+
+## 🔗 Access the Repository
+
+[https://github.com/juandie6184/E-Commerce-Database-Model-SQL-Studies-](https://github.com/juandie6184/E-Commerce-Database-Model-SQL-Studies-)
